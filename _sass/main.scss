@@ -114,3 +114,30 @@ https://www.arm.com/company/policies/trademarks/guidelines-corporate-logo
 #index_logo {
   height: 160px;
 }
+
+/* For smaller screens: */
+@media only screen and (max-width : 768px) {
+#header {
+  width: 100%;
+}
+
+#right-side {
+  display: none;
+}
+
+#logo {
+  display: none;
+}
+
+body {
+  text-align: left;
+  width: 94%;
+  overflow-x: hidden;
+  margin: 12px 12px;
+}
+
+p {
+  text-align: justify;
+  text-justify: auto;
+}
+}
